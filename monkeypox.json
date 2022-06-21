@@ -1,0 +1,3097 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genomic epidemiology of monkeypox virus",
+    "updated": "2022-06-06",
+    "build_url": "https://github.com/nextstrain/monkeypox",
+    "data_provenance": [
+      {
+        "name": "GenBank",
+        "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+      },
+      {
+        "name": "INSA",
+        "url": "https://virological.org/t/first-draft-genome-sequence-of-monkeypox-virus-associated-with-the-suspected-multi-country-outbreak-may-2022-confirmed-case-in-portugal/799"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.ncbi.nlm.nih.gov/nuccore/ON563414"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Nextstrain team",
+        "url": "http://nextstrain.org"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "outbreak_associated",
+      "map_triplicate": true,
+      "distance_measure": "div",
+      "transmission_lines": false
+    },
+    "genome_annotations": {
+      "MPXV-UK_P2-001": {
+        "end": 1584,
+        "seqid": "config/reference.gb",
+        "start": 844,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-002": {
+        "end": 2760,
+        "seqid": "config/reference.gb",
+        "start": 1711,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-003": {
+        "end": 4616,
+        "seqid": "config/reference.gb",
+        "start": 2850,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-004": {
+        "end": 6165,
+        "seqid": "config/reference.gb",
+        "start": 4852,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-005": {
+        "end": 7152,
+        "seqid": "config/reference.gb",
+        "start": 6934,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-006": {
+        "end": 8017,
+        "seqid": "config/reference.gb",
+        "start": 7589,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-007": {
+        "end": 9111,
+        "seqid": "config/reference.gb",
+        "start": 8998,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-008": {
+        "end": 10324,
+        "seqid": "config/reference.gb",
+        "start": 9596,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-009": {
+        "end": 10867,
+        "seqid": "config/reference.gb",
+        "start": 10487,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-010": {
+        "end": 12909,
+        "seqid": "config/reference.gb",
+        "start": 10927,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-011": {
+        "end": 13237,
+        "seqid": "config/reference.gb",
+        "start": 13043,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-012": {
+        "end": 15276,
+        "seqid": "config/reference.gb",
+        "start": 13384,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-013": {
+        "end": 16386,
+        "seqid": "config/reference.gb",
+        "start": 15934,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-014": {
+        "end": 17078,
+        "seqid": "config/reference.gb",
+        "start": 16611,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-015": {
+        "end": 17842,
+        "seqid": "config/reference.gb",
+        "start": 17222,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-016": {
+        "end": 18837,
+        "seqid": "config/reference.gb",
+        "start": 17887,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-017": {
+        "end": 19148,
+        "seqid": "config/reference.gb",
+        "start": 18768,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-018": {
+        "end": 20014,
+        "seqid": "config/reference.gb",
+        "start": 19370,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-019": {
+        "end": 20413,
+        "seqid": "config/reference.gb",
+        "start": 20060,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-020": {
+        "end": 21073,
+        "seqid": "config/reference.gb",
+        "start": 20540,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-021": {
+        "end": 22442,
+        "seqid": "config/reference.gb",
+        "start": 21114,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-022": {
+        "end": 23168,
+        "seqid": "config/reference.gb",
+        "start": 22506,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-023": {
+        "end": 24127,
+        "seqid": "config/reference.gb",
+        "start": 23273,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-024": {
+        "end": 25487,
+        "seqid": "config/reference.gb",
+        "start": 24360,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-025": {
+        "end": 25776,
+        "seqid": "config/reference.gb",
+        "start": 25645,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-026": {
+        "end": 27106,
+        "seqid": "config/reference.gb",
+        "start": 25832,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-027": {
+        "end": 27964,
+        "seqid": "config/reference.gb",
+        "start": 27134,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-028": {
+        "end": 28549,
+        "seqid": "config/reference.gb",
+        "start": 28100,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-029": {
+        "end": 29271,
+        "seqid": "config/reference.gb",
+        "start": 28612,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-030": {
+        "end": 29738,
+        "seqid": "config/reference.gb",
+        "start": 29283,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-031": {
+        "end": 31203,
+        "seqid": "config/reference.gb",
+        "start": 29755,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-032": {
+        "end": 32173,
+        "seqid": "config/reference.gb",
+        "start": 31214,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-033": {
+        "end": 33160,
+        "seqid": "config/reference.gb",
+        "start": 32204,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-034": {
+        "end": 33417,
+        "seqid": "config/reference.gb",
+        "start": 33190,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-035": {
+        "end": 33658,
+        "seqid": "config/reference.gb",
+        "start": 33434,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-036": {
+        "end": 34004,
+        "seqid": "config/reference.gb",
+        "start": 33810,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-037": {
+        "end": 34699,
+        "seqid": "config/reference.gb",
+        "start": 34061,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-038": {
+        "end": 36005,
+        "seqid": "config/reference.gb",
+        "start": 34686,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-039": {
+        "end": 37092,
+        "seqid": "config/reference.gb",
+        "start": 36028,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-040": {
+        "end": 39043,
+        "seqid": "config/reference.gb",
+        "start": 37136,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-041": {
+        "end": 40204,
+        "seqid": "config/reference.gb",
+        "start": 39086,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-042": {
+        "end": 40443,
+        "seqid": "config/reference.gb",
+        "start": 40222,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-043": {
+        "end": 40642,
+        "seqid": "config/reference.gb",
+        "start": 40493,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-044": {
+        "end": 41191,
+        "seqid": "config/reference.gb",
+        "start": 40715,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-045": {
+        "end": 41893,
+        "seqid": "config/reference.gb",
+        "start": 41198,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-046": {
+        "end": 42261,
+        "seqid": "config/reference.gb",
+        "start": 41956,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-047": {
+        "end": 43697,
+        "seqid": "config/reference.gb",
+        "start": 42258,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-048": {
+        "end": 45907,
+        "seqid": "config/reference.gb",
+        "start": 43694,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-049": {
+        "end": 46492,
+        "seqid": "config/reference.gb",
+        "start": 46031,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-050": {
+        "end": 47437,
+        "seqid": "config/reference.gb",
+        "start": 46658,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-051": {
+        "end": 47956,
+        "seqid": "config/reference.gb",
+        "start": 47555,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-052": {
+        "end": 49913,
+        "seqid": "config/reference.gb",
+        "start": 48210,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-053": {
+        "end": 50495,
+        "seqid": "config/reference.gb",
+        "start": 49995,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-054": {
+        "end": 51420,
+        "seqid": "config/reference.gb",
+        "start": 50599,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-055": {
+        "end": 54447,
+        "seqid": "config/reference.gb",
+        "start": 51427,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-056": {
+        "end": 54766,
+        "seqid": "config/reference.gb",
+        "start": 54479,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-057": {
+        "end": 55150,
+        "seqid": "config/reference.gb",
+        "start": 54761,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-058": {
+        "end": 57134,
+        "seqid": "config/reference.gb",
+        "start": 55137,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-059": {
+        "end": 57507,
+        "seqid": "config/reference.gb",
+        "start": 57181,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-060": {
+        "end": 58592,
+        "seqid": "config/reference.gb",
+        "start": 57654,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-061": {
+        "end": 58820,
+        "seqid": "config/reference.gb",
+        "start": 58599,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-062": {
+        "end": 59630,
+        "seqid": "config/reference.gb",
+        "start": 58821,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-063": {
+        "end": 62027,
+        "seqid": "config/reference.gb",
+        "start": 59712,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-064": {
+        "end": 62294,
+        "seqid": "config/reference.gb",
+        "start": 62055,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-065": {
+        "end": 63461,
+        "seqid": "config/reference.gb",
+        "start": 62313,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-066": {
+        "end": 64725,
+        "seqid": "config/reference.gb",
+        "start": 63454,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-067": {
+        "end": 66761,
+        "seqid": "config/reference.gb",
+        "start": 64731,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-068": {
+        "end": 68540,
+        "seqid": "config/reference.gb",
+        "start": 66765,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-069": {
+        "end": 68872,
+        "seqid": "config/reference.gb",
+        "start": 68537,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-070": {
+        "end": 69528,
+        "seqid": "config/reference.gb",
+        "start": 68866,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-071": {
+        "end": 69872,
+        "seqid": "config/reference.gb",
+        "start": 69498,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-072": {
+        "end": 71179,
+        "seqid": "config/reference.gb",
+        "start": 69875,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-073": {
+        "end": 71379,
+        "seqid": "config/reference.gb",
+        "start": 71188,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-074": {
+        "end": 71876,
+        "seqid": "config/reference.gb",
+        "start": 71379,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-075": {
+        "end": 72956,
+        "seqid": "config/reference.gb",
+        "start": 71841,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-076": {
+        "end": 73769,
+        "seqid": "config/reference.gb",
+        "start": 72987,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-077": {
+        "end": 74811,
+        "seqid": "config/reference.gb",
+        "start": 73789,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-078": {
+        "end": 75564,
+        "seqid": "config/reference.gb",
+        "start": 74812,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-079": {
+        "end": 75874,
+        "seqid": "config/reference.gb",
+        "start": 75596,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-080": {
+        "end": 76884,
+        "seqid": "config/reference.gb",
+        "start": 75850,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-081": {
+        "end": 77664,
+        "seqid": "config/reference.gb",
+        "start": 76909,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-082": {
+        "end": 78060,
+        "seqid": "config/reference.gb",
+        "start": 77674,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-083": {
+        "end": 78475,
+        "seqid": "config/reference.gb",
+        "start": 78017,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-084": {
+        "end": 79028,
+        "seqid": "config/reference.gb",
+        "start": 78495,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-085": {
+        "end": 80095,
+        "seqid": "config/reference.gb",
+        "start": 79094,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-086": {
+        "end": 80567,
+        "seqid": "config/reference.gb",
+        "start": 80010,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-087": {
+        "end": 81028,
+        "seqid": "config/reference.gb",
+        "start": 80627,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-088": {
+        "end": 84995,
+        "seqid": "config/reference.gb",
+        "start": 81135,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-089": {
+        "end": 85507,
+        "seqid": "config/reference.gb",
+        "start": 84992,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-090": {
+        "end": 86090,
+        "seqid": "config/reference.gb",
+        "start": 85521,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-091": {
+        "end": 87068,
+        "seqid": "config/reference.gb",
+        "start": 86094,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-092": {
+        "end": 89456,
+        "seqid": "config/reference.gb",
+        "start": 87069,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-093": {
+        "end": 90273,
+        "seqid": "config/reference.gb",
+        "start": 89641,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-094": {
+        "end": 91218,
+        "seqid": "config/reference.gb",
+        "start": 90274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-095": {
+        "end": 91696,
+        "seqid": "config/reference.gb",
+        "start": 91256,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-096": {
+        "end": 94277,
+        "seqid": "config/reference.gb",
+        "start": 91740,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-097": {
+        "end": 94676,
+        "seqid": "config/reference.gb",
+        "start": 94236,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-098": {
+        "end": 95370,
+        "seqid": "config/reference.gb",
+        "start": 94669,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-099": {
+        "end": 96026,
+        "seqid": "config/reference.gb",
+        "start": 95370,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-100": {
+        "end": 98415,
+        "seqid": "config/reference.gb",
+        "start": 96058,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-101": {
+        "end": 100368,
+        "seqid": "config/reference.gb",
+        "start": 98455,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-102": {
+        "end": 100880,
+        "seqid": "config/reference.gb",
+        "start": 100395,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-103": {
+        "end": 101757,
+        "seqid": "config/reference.gb",
+        "start": 100843,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-104": {
+        "end": 102440,
+        "seqid": "config/reference.gb",
+        "start": 101799,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-105": {
+        "end": 103183,
+        "seqid": "config/reference.gb",
+        "start": 102437,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-106": {
+        "end": 105079,
+        "seqid": "config/reference.gb",
+        "start": 103184,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-107": {
+        "end": 105977,
+        "seqid": "config/reference.gb",
+        "start": 105114,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-108": {
+        "end": 107663,
+        "seqid": "config/reference.gb",
+        "start": 106008,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-109": {
+        "end": 108139,
+        "seqid": "config/reference.gb",
+        "start": 107687,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-110": {
+        "end": 108834,
+        "seqid": "config/reference.gb",
+        "start": 108160,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-111": {
+        "end": 109064,
+        "seqid": "config/reference.gb",
+        "start": 108831,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-112": {
+        "end": 111013,
+        "seqid": "config/reference.gb",
+        "start": 109079,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-113": {
+        "end": 111911,
+        "seqid": "config/reference.gb",
+        "start": 111066,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-114": {
+        "end": 112434,
+        "seqid": "config/reference.gb",
+        "start": 111949,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-115": {
+        "end": 113549,
+        "seqid": "config/reference.gb",
+        "start": 112431,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-116": {
+        "end": 115705,
+        "seqid": "config/reference.gb",
+        "start": 113573,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-117": {
+        "end": 116637,
+        "seqid": "config/reference.gb",
+        "start": 115759,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-118": {
+        "end": 116920,
+        "seqid": "config/reference.gb",
+        "start": 116618,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-119": {
+        "end": 119596,
+        "seqid": "config/reference.gb",
+        "start": 116921,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-120": {
+        "end": 120567,
+        "seqid": "config/reference.gb",
+        "start": 119611,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-121": {
+        "end": 121141,
+        "seqid": "config/reference.gb",
+        "start": 120569,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-122": {
+        "end": 121377,
+        "seqid": "config/reference.gb",
+        "start": 121165,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-123": {
+        "end": 121755,
+        "seqid": "config/reference.gb",
+        "start": 121483,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-124": {
+        "end": 121933,
+        "seqid": "config/reference.gb",
+        "start": 121772,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-125": {
+        "end": 122207,
+        "seqid": "config/reference.gb",
+        "start": 121923,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-126": {
+        "end": 123324,
+        "seqid": "config/reference.gb",
+        "start": 122191,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-127": {
+        "end": 123941,
+        "seqid": "config/reference.gb",
+        "start": 123327,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-128": {
+        "end": 125434,
+        "seqid": "config/reference.gb",
+        "start": 123956,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-129": {
+        "end": 125648,
+        "seqid": "config/reference.gb",
+        "start": 125415,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-130": {
+        "end": 125996,
+        "seqid": "config/reference.gb",
+        "start": 125649,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-131": {
+        "end": 127275,
+        "seqid": "config/reference.gb",
+        "start": 125995,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-132": {
+        "end": 127768,
+        "seqid": "config/reference.gb",
+        "start": 127205,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-133": {
+        "end": 128936,
+        "seqid": "config/reference.gb",
+        "start": 127788,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-134": {
+        "end": 132427,
+        "seqid": "config/reference.gb",
+        "start": 128933,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-135": {
+        "end": 133445,
+        "seqid": "config/reference.gb",
+        "start": 133218,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-136": {
+        "end": 136103,
+        "seqid": "config/reference.gb",
+        "start": 134013,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-137": {
+        "end": 137678,
+        "seqid": "config/reference.gb",
+        "start": 136149,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-138": {
+        "end": 138061,
+        "seqid": "config/reference.gb",
+        "start": 137729,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-139": {
+        "end": 138502,
+        "seqid": "config/reference.gb",
+        "start": 138062,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-140": {
+        "end": 139420,
+        "seqid": "config/reference.gb",
+        "start": 138503,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-141": {
+        "end": 139619,
+        "seqid": "config/reference.gb",
+        "start": 139383,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-142": {
+        "end": 139780,
+        "seqid": "config/reference.gb",
+        "start": 139652,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-143": {
+        "end": 140216,
+        "seqid": "config/reference.gb",
+        "start": 139779,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-144": {
+        "end": 141085,
+        "seqid": "config/reference.gb",
+        "start": 140183,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-145": {
+        "end": 141658,
+        "seqid": "config/reference.gb",
+        "start": 141113,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-146": {
+        "end": 142169,
+        "seqid": "config/reference.gb",
+        "start": 141663,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-147": {
+        "end": 142743,
+        "seqid": "config/reference.gb",
+        "start": 142213,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-148": {
+        "end": 143475,
+        "seqid": "config/reference.gb",
+        "start": 142789,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-149": {
+        "end": 144333,
+        "seqid": "config/reference.gb",
+        "start": 143527,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-150": {
+        "end": 145418,
+        "seqid": "config/reference.gb",
+        "start": 144585,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-151": {
+        "end": 146789,
+        "seqid": "config/reference.gb",
+        "start": 146124,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-152": {
+        "end": 147400,
+        "seqid": "config/reference.gb",
+        "start": 146999,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-153": {
+        "end": 148028,
+        "seqid": "config/reference.gb",
+        "start": 147438,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-154": {
+        "end": 148272,
+        "seqid": "config/reference.gb",
+        "start": 148048,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-155": {
+        "end": 149406,
+        "seqid": "config/reference.gb",
+        "start": 148366,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-156": {
+        "end": 149830,
+        "seqid": "config/reference.gb",
+        "start": 149453,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-157": {
+        "end": 150542,
+        "seqid": "config/reference.gb",
+        "start": 149820,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-158": {
+        "end": 152134,
+        "seqid": "config/reference.gb",
+        "start": 151520,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-159": {
+        "end": 154382,
+        "seqid": "config/reference.gb",
+        "start": 152703,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-160": {
+        "end": 155427,
+        "seqid": "config/reference.gb",
+        "start": 154423,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-161": {
+        "end": 158878,
+        "seqid": "config/reference.gb",
+        "start": 158483,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-162": {
+        "end": 159869,
+        "seqid": "config/reference.gb",
+        "start": 158928,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-163": {
+        "end": 161544,
+        "seqid": "config/reference.gb",
+        "start": 160633,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-164": {
+        "end": 163118,
+        "seqid": "config/reference.gb",
+        "start": 161607,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-165": {
+        "end": 165029,
+        "seqid": "config/reference.gb",
+        "start": 163344,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-166": {
+        "end": 166086,
+        "seqid": "config/reference.gb",
+        "start": 165133,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-167": {
+        "end": 166678,
+        "seqid": "config/reference.gb",
+        "start": 166172,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-168": {
+        "end": 167290,
+        "seqid": "config/reference.gb",
+        "start": 166742,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-169": {
+        "end": 168148,
+        "seqid": "config/reference.gb",
+        "start": 167345,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-170": {
+        "end": 168906,
+        "seqid": "config/reference.gb",
+        "start": 168241,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-171": {
+        "end": 169983,
+        "seqid": "config/reference.gb",
+        "start": 169681,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-172": {
+        "end": 170897,
+        "seqid": "config/reference.gb",
+        "start": 170049,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-173": {
+        "end": 172033,
+        "seqid": "config/reference.gb",
+        "start": 170999,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-174": {
+        "end": 172610,
+        "seqid": "config/reference.gb",
+        "start": 172161,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-175": {
+        "end": 173238,
+        "seqid": "config/reference.gb",
+        "start": 172696,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-176": {
+        "end": 173911,
+        "seqid": "config/reference.gb",
+        "start": 173831,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-177": {
+        "end": 175674,
+        "seqid": "config/reference.gb",
+        "start": 174619,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-178": {
+        "end": 178106,
+        "seqid": "config/reference.gb",
+        "start": 175743,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-179": {
+        "end": 178502,
+        "seqid": "config/reference.gb",
+        "start": 178248,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-180": {
+        "end": 180354,
+        "seqid": "config/reference.gb",
+        "start": 179281,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-181": {
+        "end": 181105,
+        "seqid": "config/reference.gb",
+        "start": 180533,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-182": {
+        "end": 187013,
+        "seqid": "config/reference.gb",
+        "start": 181371,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-183": {
+        "end": 189010,
+        "seqid": "config/reference.gb",
+        "start": 188693,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-184": {
+        "end": 189675,
+        "seqid": "config/reference.gb",
+        "start": 189214,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-185": {
+        "end": 190333,
+        "seqid": "config/reference.gb",
+        "start": 190112,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-186": {
+        "end": 190955,
+        "seqid": "config/reference.gb",
+        "start": 190425,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-187": {
+        "end": 192382,
+        "seqid": "config/reference.gb",
+        "start": 191069,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-188": {
+        "end": 194384,
+        "seqid": "config/reference.gb",
+        "start": 192618,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-189": {
+        "end": 195523,
+        "seqid": "config/reference.gb",
+        "start": 194474,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "MPXV-UK_P2-190": {
+        "end": 196390,
+        "seqid": "config/reference.gb",
+        "start": 195650,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 197233,
+        "seqid": "config/reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "description": "Monkeypox outbreak genomes come from the following sources:\n\n- Monkeypox/PT0001/2022: [Isidro et al. First draft genome sequence of Monkeypox virus associated with the suspected multi-country outbreak, May 2022](https://virological.org/t/first-draft-genome-sequence-of-monkeypox-virus-associated-with-the-suspected-multi-country-outbreak-may-2022-confirmed-case-in-portugal/799). 9 additional sequences where shared by these authors in an additional post [Multi-country outbreak of Monkeypox virus: genetic divergence and first signs of microevolution](https://virological.org/t/multi-country-outbreak-of-monkeypox-virus-genetic-divergence-and-first-signs-of-microevolution/806).\n- MPXV_USA_2022_MA001: [Gigante, et al. Draft monkeypox virus genome from confirmed monkeypox case in Massachusetts, United States, May 2022](https://www.ncbi.nlm.nih.gov/nuccore/ON563414)\n- MPXV-BY-IMB25241: [Antwerpen,M.H., Lang,D., Zange,S., Walter,M.C. and Woelfel,R.](https://www.ncbi.nlm.nih.gov/nuccore/ON568298)\n\n\nAn additional genome ITM_MPX_1_Belgium was shared by [Selhorst et al. Belgian case of Monkeypox virus linked to outbreak in Portugal](https://virological.org/t/belgian-case-of-monkeypox-virus-linked-to-outbreak-in-portugal/801), but is not currently included in the build.\n\n\nWe gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequences and metadata for sharing their work. Please note that although data generators have generously shared data in an open fashion, that does not mean there should be free license to publish on this data. Data generators should be cited where possible and collaborations should be sought in some circumstances. Please try to avoid scooping someone else's work. Reach out if uncertain.\n\nThis analysis focuses on just West African clade viruses. For molecular clock analyses we assume an evolutionary rate of 5 &times; 10<sup>-6</sup> (following estimates of variola virus from [Firth et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3107591/)).\nWe are masking several regions of the genome, including the first 1500 and last 1000 bases and a repetitive region of variable length.\n\n",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "outbreak_associated",
+        "title": "Outbreak Associated",
+        "type": "categorical"
+      },
+      {
+        "key": "date",
+        "title": "Date",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "title": "Region",
+        "type": "categorical",
+        "scale": [
+          [
+            "Europe",
+            "#E39B39"
+          ]
+        ]
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical"
+      },
+      {
+        "key": "GA_CT_fraction",
+        "title": "G->A or C->T fraction",
+        "type": "continuous"
+      },
+      {
+        "key": "dinuc_context_fraction",
+        "title": "NGA/TCN context of G->A/C->T mutations",
+        "type": "continuous"
+      },
+      {
+        "key": "GA_CT_fraction",
+        "title": "G->A or C->T fraction",
+        "type": "continuous"
+      },
+      {
+        "key": "dinuc_context_fraction",
+        "title": "NGA/TCN context of G->A/C->T mutations",
+        "type": "continuous"
+      }
+    ],
+    "filters": [
+      "country",
+      "host"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Germany": {
+            "latitude": 51.1657,
+            "longitude": 10.4515
+          },
+          "Portugal": {
+            "latitude": 39.54046,
+            "longitude": -8.174701
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000008",
+        "node_attrs": {
+          "div": 3.7005008400116836e-06
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "INSA-PT0005",
+            "node_attrs": {
+              "div": 8.901245233117067e-06,
+              "accession": "EPI_ISL_13052272",
+              "GA_CT_fraction": {
+                "value": 1.0
+              },
+              "dinuc_context_fraction": {
+                "value": 1.0
+              },
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G82862A"
+                ]
+              }
+            }
+          },
+          {
+            "name": "INSA-PT0008",
+            "node_attrs": {
+              "div": 8.90125673377317e-06,
+              "accession": "EPI_ISL_13052273",
+              "GA_CT_fraction": {
+                "value": 1.0
+              },
+              "dinuc_context_fraction": {
+                "value": 1.0
+              },
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C16977T"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000007",
+        "node_attrs": {
+          "div": 6.4747353658077275e-06,
+          "GA_CT_fraction": {
+            "value": 0.0
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "-11335A",
+              "-11336T",
+              "-11337C",
+              "-11338T",
+              "-11339A",
+              "-11340C",
+              "-11341G",
+              "-11342A",
+              "-11343T",
+              "-11344A",
+              "-11345T",
+              "-11346T",
+              "-11347A",
+              "-11348G",
+              "-11349A",
+              "-11350T",
+              "-11351A",
+              "-11352C",
+              "-11353T",
+              "-11354T",
+              "-11355C",
+              "-11356A",
+              "-11357C",
+              "-11358T",
+              "-11359C",
+              "-11360A",
+              "-11361A",
+              "-11362T",
+              "-11363G",
+              "-11364A",
+              "-11365A",
+              "-11366T",
+              "-11367C",
+              "-11368A",
+              "-11369A",
+              "-11370T",
+              "-11371C",
+              "-11372A",
+              "-11373C",
+              "-11374A",
+              "-11375C",
+              "-11376A",
+              "-11377A",
+              "-11378T",
+              "-11379C",
+              "-11380T",
+              "-11381A",
+              "-11382A",
+              "-11383T",
+              "-11384G",
+              "-11385T",
+              "-11386A",
+              "-11387G",
+              "-11388G",
+              "-11389T",
+              "-11390T",
+              "-11391T",
+              "-11392A",
+              "-11393T",
+              "-11394G",
+              "-11395A",
+              "-11396C",
+              "-11397A",
+              "-11398T",
+              "-11399A",
+              "-11400A",
+              "-11401T",
+              "-11402A",
+              "-11403G",
+              "-11404C",
+              "-11405A",
+              "-11406T",
+              "-11407T",
+              "-11408T",
+              "-11409T",
+              "-11410C",
+              "-11411A",
+              "-11412G",
+              "-11413C",
+              "-11414A",
+              "-11415G",
+              "-11416T",
+              "-11417T",
+              "-11418C",
+              "-11419A",
+              "-11420A",
+              "-11421T",
+              "-11422G",
+              "-11423T",
+              "-11424T",
+              "-11425T",
+              "-11426C",
+              "-11427T",
+              "-11428A",
+              "-11429G",
+              "-11430A",
+              "-11431T",
+              "-11432T",
+              "-11433C",
+              "-11434G",
+              "-11435T",
+              "-11436T",
+              "-11437G",
+              "-11438A",
+              "-11439T",
+              "-11440G",
+              "-11441G",
+              "-11442C",
+              "-11443A",
+              "-11444A",
+              "-11445T",
+              "-11446G",
+              "-11447G",
+              "-11448T",
+              "-11449T",
+              "-11450A",
+              "-11451T",
+              "-11452A",
+              "-11453C",
+              "-11454A",
+              "-11455T",
+              "-11456G",
+              "-11457T",
+              "-11458A",
+              "-11459T",
+              "-11460A",
+              "-11461T",
+              "-11462C",
+              "-11463C",
+              "-11464G",
+              "-11465T",
+              "-11466T",
+              "-11467A",
+              "-11468T",
+              "-11469T",
+              "-11470T",
+              "-11471G",
+              "-11472A",
+              "-11473T",
+              "-11474C",
+              "-11475T",
+              "-11476A",
+              "-11477A",
+              "-11478T",
+              "-11479G",
+              "-11480T",
+              "-11481T",
+              "-11482G",
+              "-11483A",
+              "-11484C",
+              "-11485A",
+              "-11486T",
+              "-11487C",
+              "-11488T",
+              "-11489G",
+              "-11490A",
+              "-11491A",
+              "-11492C",
+              "-11493C",
+              "-11494G",
+              "-11495G",
+              "-11496A",
+              "-11497T",
+              "-11498T",
+              "-11499C",
+              "-11500T",
+              "-11501A",
+              "-11502G",
+              "-11503C",
+              "-11504A",
+              "-11505G",
+              "-11506T",
+              "-11507A",
+              "-11508A",
+              "-11509A",
+              "-11510G",
+              "-11511A",
+              "-11512T",
+              "-11513A",
+              "-11514C",
+              "-11515T",
+              "-11516A",
+              "-11517G",
+              "-11518A",
+              "-11519G",
+              "-11520A",
+              "-11521T",
+              "-11522T",
+              "-11523G",
+              "-11524T",
+              "-11525T",
+              "-11526T",
+              "-11527A",
+              "-11528T",
+              "-11529T",
+              "-11530A",
+              "-11531T",
+              "-11532A",
+              "-11533T",
+              "-11534C",
+              "-11535T",
+              "-11536A",
+              "-11537A",
+              "-11538C",
+              "-11539A",
+              "-11540G",
+              "-11541C",
+              "-11542C",
+              "-11543T",
+              "-11544T",
+              "-11545G",
+              "-11546T",
+              "-11547G",
+              "-11548A",
+              "-11549A",
+              "-11550G",
+              "-11551A",
+              "-11552A",
+              "-11553G",
+              "-11554T",
+              "-11555G",
+              "-11556T",
+              "-11557T",
+              "-11558T",
+              "-11559C",
+              "-11560T",
+              "-11561C",
+              "-11562C",
+              "-11563T",
+              "-11564C",
+              "-11565G",
+              "-11566T",
+              "-11567T",
+              "-11568T",
+              "-11569G",
+              "-11570T",
+              "-11571C",
+              "-11572A",
+              "-11573A",
+              "-11574T",
+              "-11575C",
+              "-11576A",
+              "-11577T",
+              "-11578G",
+              "-11579T",
+              "-11580T",
+              "-11581A",
+              "-11582A",
+              "-11583T",
+              "-11584G",
+              "-11585T",
+              "-11586C",
+              "-11587T",
+              "-11588T",
+              "-11589T",
+              "-11590A",
+              "-11591A",
+              "-11592G",
+              "-11593A",
+              "-11594T",
+              "-11595A",
+              "-11596A",
+              "-11597G",
+              "-11598G",
+              "-11599T",
+              "-11600A",
+              "-11601G",
+              "-11602A",
+              "-11603C",
+              "-11604A",
+              "-11605A",
+              "-11606A",
+              "-11607T",
+              "-11608G",
+              "-11609T",
+              "-11610T",
+              "-11611T",
+              "-11612A",
+              "-11613T",
+              "-11614A",
+              "-11615G",
+              "-11616T",
+              "-11617A",
+              "-11618C",
+              "-11619T",
+              "-11620A",
+              "-11621A",
+              "-11622G",
+              "-11623A",
+              "-11624A",
+              "-11625T",
+              "-11626T",
+              "-11627G",
+              "-11628G",
+              "-11629G",
+              "-11630C",
+              "-11631A",
+              "-11632A",
+              "-11633A",
+              "-11634C",
+              "-11635A",
+              "-11636T",
+              "-11637A",
+              "-11638A",
+              "-11639G",
+              "-11640A",
+              "-11641C",
+              "-11642A",
+              "-11643T",
+              "-11644G",
+              "-11645T",
+              "-11646C",
+              "-11647A",
+              "-11648C",
+              "-11649A",
+              "-11650A",
+              "-11651A",
+              "-11652G",
+              "-11653A",
+              "-11654C",
+              "-11655C",
+              "-11656C",
+              "-11657T",
+              "-11658T",
+              "-11659T",
+              "-11660T",
+              "-11661T",
+              "-11662G",
+              "-11663T",
+              "-11664A",
+              "-11665T",
+              "-11666G",
+              "-11667T",
+              "-11668A",
+              "-11669T",
+              "-11670A",
+              "-11671A",
+              "-11672G",
+              "-11673T",
+              "-11674G",
+              "-11675T",
+              "-11676A",
+              "-11677G",
+              "-11678A",
+              "-11679A",
+              "-11680A",
+              "-11681T",
+              "-11682T",
+              "-11683A",
+              "-11684T",
+              "-11685A",
+              "-11686A",
+              "-11687C",
+              "-11688A",
+              "-11689T",
+              "-11690C",
+              "-11691C",
+              "-11692A",
+              "-11693T",
+              "-11694A",
+              "-11695G",
+              "-11696T",
+              "-11697T",
+              "-11698G",
+              "-11699G",
+              "-11700A",
+              "-11701T",
+              "-11702T",
+              "-11703C",
+              "-11704A",
+              "-11705C",
+              "-11706A",
+              "-11707T",
+              "-11708A",
+              "-11709G",
+              "-11710G",
+              "-11711T",
+              "-11712G",
+              "-11713T",
+              "-11714C",
+              "-11715C",
+              "-11716A",
+              "-11717A",
+              "-11718T",
+              "-11719C",
+              "-11720G",
+              "-11721G",
+              "-11722G",
+              "-11723A",
+              "-11724T",
+              "-11725C",
+              "-11726T",
+              "-11727C",
+              "-11728T",
+              "-11729C",
+              "-11730C",
+              "-11731A",
+              "-11732T",
+              "-11733C",
+              "-11734A",
+              "-11735T",
+              "-11736C",
+              "-11737G",
+              "-11738A",
+              "-11739G",
+              "-11740A",
+              "-11741T",
+              "-11742G",
+              "-11743A",
+              "-11744T",
+              "-11745T",
+              "-11746G",
+              "-11747A",
+              "-11748C",
+              "-11749G",
+              "-11750G",
+              "-11751C",
+              "-11752A",
+              "-11753T",
+              "-11754C",
+              "-11755T",
+              "-11756C",
+              "-11757C",
+              "-11758C",
+              "-11759C",
+              "-11760C",
+              "-11761T",
+              "-11762T",
+              "-11763C",
+              "-11764C",
+              "-11765T",
+              "-11766T",
+              "-11767T",
+              "-11768T",
+              "-11769T",
+              "-11770T",
+              "-11771A",
+              "-11772G",
+              "-11773T",
+              "-11774A",
+              "-11775G",
+              "-11776A",
+              "-11777T",
+              "-11778A",
+              "-11779T",
+              "-11780T",
+              "-11781T",
+              "-11782C",
+              "-11783A",
+              "-11784T",
+              "-11785C",
+              "-11786G",
+              "-11787T",
+              "-11788G",
+              "-11789T",
+              "-11790A",
+              "-11791A",
+              "-11792G",
+              "-11793A",
+              "-11794A",
+              "-11795T",
+              "-11796C",
+              "-11797A",
+              "-11798A",
+              "-11799T",
+              "-11800A",
+              "-11801T",
+              "-11802T",
+              "-11803A",
+              "-11804A",
+              "-11805T",
+              "-11806A",
+              "-11807T",
+              "-11808T",
+              "-11809T",
+              "-11810C",
+              "-11811T",
+              "-11812A",
+              "-11813A",
+              "-11814A",
+              "-11815G",
+              "-11816T",
+              "-11817A",
+              "-11818T",
+              "-11819C",
+              "-11820T",
+              "-11821G",
+              "-11822T",
+              "-11823G",
+              "-11824T",
+              "-11825A",
+              "-11826T",
+              "-11827A",
+              "-11828G",
+              "-11829C",
+              "-11830C",
+              "-11831T",
+              "-11832C",
+              "-11833T",
+              "-11834T",
+              "-11835T",
+              "-11836A",
+              "-11837T",
+              "-11838T",
+              "-11839T",
+              "-11840A",
+              "-11841C",
+              "-11842C",
+              "-11843A",
+              "-11844C",
+              "-11845A",
+              "-11846G",
+              "-11847C",
+              "-11848T",
+              "-11849C",
+              "-11850C",
+              "-11851A",
+              "-11852T",
+              "-11853A",
+              "-11854T",
+              "-11855T",
+              "-11856C",
+              "-11857C",
+              "-11858A",
+              "-11859A",
+              "-11860C",
+              "-11861A",
+              "-11862T",
+              "-11863G",
+              "-11864C",
+              "-11865A",
+              "-11866T",
+              "-11867T",
+              "-11868C",
+              "-11869C",
+              "-11870A",
+              "-11871C",
+              "-11872T",
+              "-11873A",
+              "-11874G",
+              "-11875A",
+              "-11876G",
+              "-11877G",
+              "-11878G",
+              "-11879A",
+              "-11880T",
+              "-11881A",
+              "-11882T",
+              "-11883C",
+              "-11884G",
+              "-11885A",
+              "-11886T",
+              "-11887A",
+              "-11888T",
+              "-11889C",
+              "-11890G",
+              "-11891C",
+              "-11892C",
+              "-11893G",
+              "-11894A",
+              "-11895A",
+              "-11896T",
+              "-11897G",
+              "-11898T",
+              "-11899C",
+              "-11900A",
+              "-11901T",
+              "-11902A",
+              "-11903T",
+              "-11904A",
+              "-11905C",
+              "-11906T",
+              "-11907C",
+              "-11908A",
+              "-11909A",
+              "-11910T",
+              "-11911T",
+              "-11912A",
+              "-11913G",
+              "-11914T",
+              "-11915A",
+              "-11916T",
+              "-11917A",
+              "-11918T",
+              "-11919G",
+              "-11920T",
+              "-11921T",
+              "-11922G",
+              "-11923G",
+              "-11924A",
+              "-11925G",
+              "-11926G",
+              "-11927A",
+              "-11928C",
+              "-11929A",
+              "-11930T",
+              "-11931C",
+              "-11932C",
+              "-11933G",
+              "-11934A",
+              "-11935G",
+              "-11936T",
+              "-11937T",
+              "-11938C",
+              "-11939A",
+              "-11940T",
+              "-11941T",
+              "-11942G",
+              "-11943T",
+              "-11944T",
+              "-11945T",
+              "-11946T",
+              "-11947C",
+              "-11948A",
+              "-11949A",
+              "-11950T",
+              "-11951A",
+              "-11952T",
+              "-11953C",
+              "-11954A",
+              "-11955A",
+              "-11956A",
+              "-11957G",
+              "-11958A",
+              "-11959G",
+              "-11960A",
+              "-11961T",
+              "-11962G",
+              "-11963G",
+              "-11964T",
+              "-11965T",
+              "-11966T",
+              "-11967C",
+              "-11968C",
+              "-11969T",
+              "-11970T",
+              "-11971A",
+              "-11972T",
+              "-11973C",
+              "-11974A",
+              "-11975T",
+              "-11976T",
+              "-11977T",
+              "-11978C",
+              "-11979T",
+              "-11980C",
+              "-11981C",
+              "-11982A",
+              "-11983T",
+              "-11984A",
+              "-11985G",
+              "-11986T",
+              "-11987G",
+              "-11988G",
+              "-11989T",
+              "-11990A",
+              "-11991C",
+              "-11992A",
+              "-11993A",
+              "-11994T",
+              "-11995A",
+              "-11996C",
+              "-11997T",
+              "-11998A",
+              "-11999C",
+              "-12000A",
+              "-12001C",
+              "-12002A",
+              "-12003T",
+              "-12004T",
+              "-12005A",
+              "-12006T",
+              "-12007T",
+              "-12008C",
+              "-12009C",
+              "-12010G",
+              "-12011T",
+              "-12012A",
+              "-12013C",
+              "-12014G",
+              "-12015G",
+              "-12016C",
+              "-12017T",
+              "-12018T",
+              "-12019T",
+              "-12020C",
+              "-12021C",
+              "-12022A",
+              "-12023T",
+              "-12024T",
+              "-12025C",
+              "-12026T",
+              "-12027C",
+              "-12028C",
+              "-12029A",
+              "-12030A",
+              "-12031A",
+              "-12032A",
+              "-12033A",
+              "-12034C",
+              "-12035A",
+              "-12036A",
+              "-12037T",
+              "-12038T",
+              "-12039T",
+              "-12040T",
+              "-12041A",
+              "-12042C",
+              "-12043C",
+              "-12044A",
+              "-12045A",
+              "-12046A",
+              "-12047T",
+              "-12048C",
+              "-12049T",
+              "-12050A",
+              "-12051A",
+              "-12052A",
+              "-12053T",
+              "-12054C",
+              "-12055T",
+              "-12056A",
+              "-12057C",
+              "-12058A",
+              "-12059T",
+              "-12060C",
+              "-12061T",
+              "-12062T",
+              "-12063T",
+              "-12064A",
+              "-12065T",
+              "-12066T",
+              "-12067G",
+              "-12068T",
+              "-12069A",
+              "-12070T",
+              "-12071C",
+              "-12072T",
+              "-12073A",
+              "-12074T",
+              "-12075A",
+              "-12076A",
+              "-12077T",
+              "-12078C",
+              "-12079A",
+              "-12080C",
+              "-12081T",
+              "-12082A",
+              "-12083T",
+              "-12084T",
+              "-12085T",
+              "-12086A",
+              "-12087G",
+              "-12088A",
+              "-12089T",
+              "-12090A",
+              "-12091A",
+              "-12092T",
+              "-12093C",
+              "-12094A",
+              "-12095G",
+              "-12096C",
+              "-12097C",
+              "-12098A",
+              "-12099T",
+              "-12100A",
+              "-12101A",
+              "-12102T",
+              "-12103T",
+              "-12104C",
+              "-12105C",
+              "-12106T",
+              "-12107C",
+              "-12108G",
+              "-12109A",
+              "-12110G",
+              "-12111T",
+              "-12112G",
+              "-12113C",
+              "-12114A",
+              "-12115A",
+              "-12116C",
+              "-12117A",
+              "-12118T",
+              "-12119G",
+              "-12120T",
+              "-12121T",
+              "-12122A",
+              "-12123G",
+              "-12124A",
+              "-12125T",
+              "-12126C",
+              "-12127G",
+              "-12128T",
+              "-12129C",
+              "-12130T",
+              "-12131A",
+              "-12132T",
+              "-12133A",
+              "-12134T",
+              "-12135A",
+              "-12136T",
+              "-12137G",
+              "-12138A",
+              "-12139A",
+              "-12140T",
+              "-12141A",
+              "-12142A",
+              "-12143G",
+              "-12144C",
+              "-12145C",
+              "-12146G",
+              "-12147T",
+              "-12148G",
+              "-12149T",
+              "-12150T",
+              "-12151A",
+              "-12152T",
+              "-12153C",
+              "-12154T",
+              "-12155A",
+              "-12156T",
+              "-12157T",
+              "-12158C",
+              "-12159C",
+              "-12160T",
+              "-12161T",
+              "-12162T",
+              "-12163C",
+              "-12164A",
+              "-12165T",
+              "-12166T",
+              "-12167A",
+              "-12168A",
+              "-12169C",
+              "-12170A",
+              "-12171A",
+              "-12172T",
+              "-12173T",
+              "-12174T",
+              "-12175A",
+              "-12176A",
+              "-12177C",
+              "-12178G",
+              "-12179A",
+              "-12180T",
+              "-12181G",
+              "-12182T",
+              "-12183C",
+              "-12184T",
+              "-12185A",
+              "-12186T",
+              "-12187A",
+              "-12188T",
+              "-12189C",
+              "-12190T",
+              "-12191A",
+              "-12192T",
+              "-12193A",
+              "-12194T",
+              "-12195G",
+              "-12196A",
+              "-12197G",
+              "-12198A",
+              "-12199T",
+              "-12200G",
+              "-12201A",
+              "-12202C",
+              "-12203T",
+              "-12204T",
+              "-12205A",
+              "-12206A",
+              "-12207T",
+              "-12208A",
+              "-12209T",
+              "-12210A",
+              "-12211A",
+              "-12212T",
+              "-12213A",
+              "-12214T",
+              "-12215T",
+              "-12216G",
+              "-12217A",
+              "-12218A",
+              "-12219G",
+              "-12220A",
+              "-12221G",
+              "-12222C",
+              "-12223T",
+              "-12224G",
+              "-12225T",
+              "-12226A",
+              "-12227C",
+              "-12228A",
+              "-12229A",
+              "-12230T",
+              "-12231A",
+              "-12232G",
+              "-12233T",
+              "-12234T",
+              "-12235T",
+              "-12236T",
+              "-12237T",
+              "-12238A",
+              "-12239T",
+              "-12240C",
+              "-12241T",
+              "-12242A",
+              "-12243T",
+              "-12244A",
+              "-12245G",
+              "-12246A",
+              "-12247A",
+              "A176910G",
+              "A181382G"
+            ],
+            "MPXV-UK_P2-010": [
+              "X221S",
+              "-222S",
+              "-223I",
+              "-224D",
+              "-225K",
+              "-226N",
+              "-227Y",
+              "-228C",
+              "-229T",
+              "-230A",
+              "-231L",
+              "-232Q",
+              "-233Y",
+              "-234Y",
+              "-235I",
+              "-236K",
+              "-237S",
+              "-238S",
+              "-239H",
+              "-240I",
+              "-241D",
+              "-242I",
+              "-243D",
+              "-244I",
+              "-245V",
+              "-246K",
+              "-247L",
+              "-248L",
+              "-249M",
+              "-250K",
+              "-251G",
+              "-252I",
+              "-253D",
+              "-254N",
+              "-255T",
+              "-256A",
+              "-257Y",
+              "-258S",
+              "-259Y",
+              "-260I",
+              "-261D",
+              "-262D",
+              "-263L",
+              "-264T",
+              "-265C",
+              "-266C",
+              "-267T",
+              "-268R",
+              "-269G",
+              "-270I",
+              "-271M",
+              "-272A",
+              "-273D",
+              "-274Y",
+              "-275L",
+              "-276N",
+              "-277S",
+              "-278D",
+              "-279Y",
+              "-280R",
+              "-281Y",
+              "-282N",
+              "-283K",
+              "-284D",
+              "-285V",
+              "-286D",
+              "-287L",
+              "-288D",
+              "-289L",
+              "-290V",
+              "-291K",
+              "-292L",
+              "-293F",
+              "-294L",
+              "-295E",
+              "-296N",
+              "-297G",
+              "-298K",
+              "-299P",
+              "-300Y",
+              "-301G",
+              "-302I",
+              "-303M",
+              "-304C",
+              "-305S",
+              "-306I",
+              "-307V",
+              "-308P",
+              "-309L",
+              "-310W",
+              "-311R",
+              "-312N",
+              "-313D",
+              "-314K",
+              "-315E",
+              "-316T",
+              "-317I",
+              "-318S",
+              "-319L",
+              "-320I",
+              "-321L",
+              "-322K",
+              "-323T",
+              "-324M",
+              "-325N",
+              "-326S",
+              "-327D",
+              "-328V",
+              "-329L",
+              "-330Q",
+              "-331H",
+              "-332I",
+              "-333L",
+              "-334I",
+              "-335E",
+              "-336Y",
+              "-337M",
+              "-338T",
+              "-339F",
+              "-340G",
+              "-341D",
+              "-342I",
+              "-343D",
+              "-344I",
+              "-345P",
+              "-346L",
+              "-347V",
+              "-348E",
+              "-349C",
+              "-350M",
+              "-351L",
+              "-352E",
+              "-353Y",
+              "-354G",
+              "-355A",
+              "-356V",
+              "-357V",
+              "-358N",
+              "-359K",
+              "-360E",
+              "-361A",
+              "-362I",
+              "-363H",
+              "-364R",
+              "-365Y",
+              "-366F",
+              "-367R",
+              "-368N",
+              "-369I",
+              "-370N",
+              "-371I",
+              "-372D",
+              "-373S",
+              "-374Y",
+              "-375T",
+              "-376M",
+              "-377K",
+              "-378Y",
+              "-379L",
+              "-380L",
+              "-381K",
+              "-382K",
+              "-383E",
+              "-384G",
+              "-385G",
+              "-386D",
+              "-387A",
+              "-388V",
+              "-389N",
+              "-390H",
+              "-391L",
+              "-392D",
+              "-393D",
+              "-394G",
+              "-395E",
+              "-396I",
+              "-397P",
+              "-398I",
+              "-399G",
+              "-400H",
+              "-401L",
+              "-402C",
+              "-403E",
+              "-404S",
+              "-405N",
+              "-406Y",
+              "-407G",
+              "-408C",
+              "-409Y",
+              "-410N",
+              "-411F",
+              "-412Y",
+              "-413T",
+              "-414Y",
+              "-415T",
+              "-416Y",
+              "-417K",
+              "-418K",
+              "-419G",
+              "-420L",
+              "-421C",
+              "-422D",
+              "-423M",
+              "-424S",
+              "-425Y",
+              "-426V",
+              "-427C",
+              "-428P",
+              "-429I",
+              "-430L",
+              "-431S",
+              "-432T",
+              "-433I",
+              "-434N",
+              "-435I",
+              "-436C",
+              "-437L",
+              "-438P",
+              "-439Y",
+              "-440L",
+              "-441K",
+              "-442D",
+              "-443I",
+              "-444N",
+              "-445M",
+              "-446I",
+              "-447D",
+              "-448K",
+              "-449R",
+              "-450G",
+              "-451E",
+              "-452T",
+              "-453L",
+              "-454L",
+              "-455H",
+              "-456K",
+              "-457A",
+              "-458V",
+              "-459R",
+              "-460Y",
+              "-461N",
+              "-462K",
+              "-463Q",
+              "-464S",
+              "-465L",
+              "-466V",
+              "-467S",
+              "-468L",
+              "-469L",
+              "-470L",
+              "-471E",
+              "-472S",
+              "-473G",
+              "-474S",
+              "-475D",
+              "-476V",
+              "-477N",
+              "-478I",
+              "-479R",
+              "-480S",
+              "-481N",
+              "-482N",
+              "-483G",
+              "-484Y",
+              "-485T",
+              "-486C",
+              "-487I",
+              "-488T",
+              "-489I",
+              "-490A",
+              "-491I",
+              "-492N",
+              "-493E",
+              "-494S",
+              "-495R",
+              "-496N",
+              "-497I",
+              "-498E",
+              "-499L",
+              "-500L",
+              "-501K",
+              "-502M",
+              "-503L",
+              "-504L",
+              "-505C",
+              "-506H",
+              "-507K",
+              "-508P",
+              "-509T",
+              "-510L",
+              "-511D",
+              "-512C",
+              "-513V",
+              "-514I",
+              "-515D",
+              "-516S",
+              "-517L",
+              "-518S",
+              "-519E",
+              "-520V",
+              "-521S",
+              "-522N",
+              "-523I",
+              "-524V",
+              "-525D",
+              "X661*"
+            ],
+            "MPXV-UK_P2-178": [
+              "K390E"
+            ]
+          },
+          "labels": {
+            "aa": "MPXV-UK_P2-010: X221S, -222S, -223I, -224D, -225K, -226N, -227Y, -228C, -229T, -230A, -231L, -232Q, -233Y, -234Y, -235I, -236K, -237S, -238S, -239H, -240I, -241D, -242I, -243D, -244I, -245V, -246K, -247L, -248L, -249M, -250K, -251G, -252I, -253D, -254N, -255T, -256A, -257Y, -258S, -259Y, -260I, -261D, -262D, -263L, -264T, -265C, -266C, -267T, -268R, -269G, -270I, -271M, -272A, -273D, -274Y, -275L, -276N, -277S, -278D, -279Y, -280R, -281Y, -282N, -283K, -284D, -285V, -286D, -287L, -288D, -289L, -290V, -291K, -292L, -293F, -294L, -295E, -296N, -297G, -298K, -299P, -300Y, -301G, -302I, -303M, -304C, -305S, -306I, -307V, -308P, -309L, -310W, -311R, -312N, -313D, -314K, -315E, -316T, -317I, -318S, -319L, -320I, -321L, -322K, -323T, -324M, -325N, -326S, -327D, -328V, -329L, -330Q, -331H, -332I, -333L, -334I, -335E, -336Y, -337M, -338T, -339F, -340G, -341D, -342I, -343D, -344I, -345P, -346L, -347V, -348E, -349C, -350M, -351L, -352E, -353Y, -354G, -355A, -356V, -357V, -358N, -359K, -360E, -361A, -362I, -363H, -364R, -365Y, -366F, -367R, -368N, -369I, -370N, -371I, -372D, -373S, -374Y, -375T, -376M, -377K, -378Y, -379L, -380L, -381K, -382K, -383E, -384G, -385G, -386D, -387A, -388V, -389N, -390H, -391L, -392D, -393D, -394G, -395E, -396I, -397P, -398I, -399G, -400H, -401L, -402C, -403E, -404S, -405N, -406Y, -407G, -408C, -409Y, -410N, -411F, -412Y, -413T, -414Y, -415T, -416Y, -417K, -418K, -419G, -420L, -421C, -422D, -423M, -424S, -425Y, -426V, -427C, -428P, -429I, -430L, -431S, -432T, -433I, -434N, -435I, -436C, -437L, -438P, -439Y, -440L, -441K, -442D, -443I, -444N, -445M, -446I, -447D, -448K, -449R, -450G, -451E, -452T, -453L, -454L, -455H, -456K, -457A, -458V, -459R, -460Y, -461N, -462K, -463Q, -464S, -465L, -466V, -467S, -468L, -469L, -470L, -471E, -472S, -473G, -474S, -475D, -476V, -477N, -478I, -479R, -480S, -481N, -482N, -483G, -484Y, -485T, -486C, -487I, -488T, -489I, -490A, -491I, -492N, -493E, -494S, -495R, -496N, -497I, -498E, -499L, -500L, -501K, -502M, -503L, -504L, -505C, -506H, -507K, -508P, -509T, -510L, -511D, -512C, -513V, -514I, -515D, -516S, -517L, -518S, -519E, -520V, -521S, -522N, -523I, -524V, -525D, X661*; MPXV-UK_P2-178: K390E"
+          }
+        },
+        "children": [
+          {
+            "name": "INSA-PT0007",
+            "node_attrs": {
+              "div": 6.474735365820497e-06,
+              "accession": "EPI_ISL_13052269",
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "INSA-PT0006",
+            "node_attrs": {
+              "div": 1.165073887111171e-05,
+              "accession": "EPI_ISL_13052268",
+              "GA_CT_fraction": {
+                "value": 1.0
+              },
+              "dinuc_context_fraction": {
+                "value": 1.0
+              },
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C55084T"
+                ],
+                "MPXV-UK_P2-057": [
+                  "D23N"
+                ]
+              },
+              "labels": {
+                "aa": "MPXV-UK_P2-057: D23N"
+              }
+            }
+          },
+          {
+            "name": "INSA-PT0009",
+            "node_attrs": {
+              "div": 6.474735365820497e-06,
+              "accession": "EPI_ISL_13052270",
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "INSA-PT0001",
+            "node_attrs": {
+              "div": 6.474735365834712e-06,
+              "accession": "EPI_ISL_13052264",
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-04"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "-188364A"
+                ]
+              }
+            }
+          },
+          {
+            "name": "INSA-PT0010",
+            "node_attrs": {
+              "div": 1.6828767797156707e-05,
+              "accession": "EPI_ISL_13052271",
+              "GA_CT_fraction": {
+                "value": 1.0
+              },
+              "dinuc_context_fraction": {
+                "value": 1.0
+              },
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C127229T",
+                  "C144538T"
+                ],
+                "MPXV-UK_P2-131": [
+                  "S412L"
+                ],
+                "MPXV-UK_P2-132": [
+                  "Q9*"
+                ]
+              },
+              "labels": {
+                "aa": "MPXV-UK_P2-131: S412L; MPXV-UK_P2-132: Q9*"
+              }
+            }
+          },
+          {
+            "name": "BY-IMB-25241",
+            "node_attrs": {
+              "div": 1.1651472089213398e-05,
+              "accession": "EPI_ISL_13052263",
+              "GA_CT_fraction": {
+                "value": 1.0
+              },
+              "dinuc_context_fraction": {
+                "value": 1.0
+              },
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-19"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Germany"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A179164-",
+                  "T179165-",
+                  "A179166-",
+                  "T179167-",
+                  "A179168-",
+                  "C179169-",
+                  "A179170-",
+                  "T179171-",
+                  "T179172-",
+                  "A179173-",
+                  "T179174-",
+                  "A179175-",
+                  "T179176-",
+                  "A179177-",
+                  "C179178-",
+                  "A179179-",
+                  "T179180-",
+                  "T179181-",
+                  "A179182-",
+                  "T179183-",
+                  "A179184-",
+                  "T179185-",
+                  "A179186-",
+                  "C179187-",
+                  "A179188-",
+                  "T179189-",
+                  "T179190-",
+                  "C187169T",
+                  "-188364A"
+                ]
+              }
+            }
+          },
+          {
+            "name": "INSA-PT0004",
+            "node_attrs": {
+              "div": 6.474735365820497e-06,
+              "accession": "EPI_ISL_13052267",
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-17"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "INSA-PT0002",
+            "node_attrs": {
+              "div": 6.474735365834712e-06,
+              "accession": "EPI_ISL_13052265",
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "INSA-PT0003",
+            "node_attrs": {
+              "div": 6.4747353658205135e-06,
+              "accession": "EPI_ISL_13052266",
+              "host": {
+                "value": "Human"
+              },
+              "outbreak_associated": {
+                "value": "yes"
+              },
+              "date": {
+                "value": "2022-05-15"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Portugal"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
